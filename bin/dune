@@ -1,0 +1,11 @@
+(executable
+ (public_name menhirInt)
+ (name menhirInt)
+ (modules menhirInt)
+ (libraries menhirLib)
+)
+
+(env
+  (dev
+  (flags (:standard -warn-error -A )))
+)
